@@ -1,0 +1,83 @@
+html{
+    font-family: 'lato', sans-serif;
+}
+body{
+    background: #333;
+    color: white;
+}
+.navbar{
+    border-bottom: 3px solid mediumvioletred;
+    opacity: 0.8;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.nav-link .active{
+    color:white !important;
+}
+@media(min-width: 768px){
+.nav-link:hover{
+    color: mediumvioletred !important;
+    transform: scale(1.2) !important;
+}
+}
+@media(max-width: 768px){
+    .nav-link:hover{
+        color: mediumvioletred !important;
+    }
+}
+#home{
+    background: url(../img/home.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 700px;
+}
+#home .dark-overlay{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    min-height: 700px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.575),rgba(158, 49, 118, 0.712));
+}
+#home .home-content{
+    padding-top: 150px;
+}
+.bg-violet{
+    background: rgba(199, 21, 134, 0.616);
+}
+#home .fa{
+    color: mediumvioletred;
+    background: white;
+    padding: 2px;
+    border-radius: 6px;
+}
+#explore-main .fa{
+    color: mediumvioletred;
+    background: rgba(0, 0, 0, 0.397);
+    padding: 2px;
+    border-radius: 6px;
+}
+#explore-main h3{
+    color: rgba(199, 21, 134, 0.753);
+}
+#create-main .fa{
+    color: mediumvioletred;
+    background: rgba(0, 0, 0, 0.397);
+    padding: 2px;
+    border-radius: 6px;
+}
+#create-main h3{
+    color: rgba(199, 21, 134, 0.753);
+}
+#share-main .fa{
+    color: mediumvioletred;
+    background: rgba(0, 0, 0, 0.397);
+    padding: 2px;
+    border-radius: 6px;
+}
+#share-main h3{
+    color: rgba(199, 21, 134, 0.753);
+}
+
